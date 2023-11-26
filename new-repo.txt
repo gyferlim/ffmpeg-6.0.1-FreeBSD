@@ -1,0 +1,4 @@
+release1: {
+  url: "http://pkg.FreeBSD.org/${ABI}/release_1",
+  enabled: yes
+}
