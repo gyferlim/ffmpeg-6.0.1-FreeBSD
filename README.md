@@ -4,6 +4,7 @@ After upgraded, the new libtasn1-4.19 package has caused issues and broke ffmpeg
 tested on jail 13.1-RELEASE and 13.2-RELEASE 
 
 # How to use
+Inside jail - cli
 1. git clone https://github.com/gyferlim/ffmpeg-6.0.1-FreeBSD
 2. cd ffmpeg-6.0.1-FreeBSD
 3. chmod +x run.sh
