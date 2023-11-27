@@ -39,5 +39,6 @@ pkg add /var/cache/pkg/libtasn1-4.18.0.pkg
 
 echo -e "${GREEN}Installing ffmpeg${NC}"
 pkg install -y ffmpeg
+ffmpeg
 
 echo -e "${GREEN}If you see an ffmpeg output, you have successfully installed ffmpeg using libtasn1-4.18.0.pkg${NC}"
