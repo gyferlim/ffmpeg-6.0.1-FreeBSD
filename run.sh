@@ -29,7 +29,7 @@ echo -e "${GREEN}Updating pkg${NC}"
 pkg update
 
 echo -e "${GREEN}Removing libtasn1${NC}"
-pkg remove libtasn1
+pkg remove -f libtasn1
 
 echo -e "${GREEN}Fetching libtasn1-4.18.0${NC}"
 pkg fetch -y libtasn1-4.18.0
